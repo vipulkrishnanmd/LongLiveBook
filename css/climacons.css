@@ -1,0 +1,39 @@
+@font-face {
+    font-family:'ClimaconsRegular';
+    src: url('../font/climacons-webfont.eot');
+    src: url('../font/climacons-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/climacons-webfont.woff') format('woff'),
+         url('../font/climacons-webfont.ttf') format('truetype');
+	src: url('../fonts/icomoon.eot');
+	src: url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/icomoon.woff') format('woff'),
+         url('../fonts/icomoon.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: 'ClimaconsRegular';
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  text-align: center;
+  line-height: 1em;
+  margin-left: 0.2em;
+}
+
+.icon-clima-1:before { content: '\e600'; } /* '1' */
+.icon-clima-2:before { content: '\e604'; } /* 'v' */
+.icon-clima-3:before { content: '\f007'; } /* '3' */
+.icon-clima-4:before { content: '\e602'; } /* '4' */
+.icon-clima-5:before { content: '\e601'; } /* ';' */
+.icon-clima-6:before { content: '\e605'; } /* 'o' */
+.icon-clima-7:before { content: '\e606'; } /* ']' */
+.icon-clima-8:before { content: '\f011'; } /* 'x' */
+.icon-clima-9:before { content: '\e608'; } /* '9' */
+.icon-clima-10:before { content: '\e607'; } /* '0' */
+.icon-clima-11:before { content: '\eacf'; } /* 'p' */
